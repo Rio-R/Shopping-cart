@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h4{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 5px;
+        }
+        .product{
+            width: 200px;
+            margin: 0 auto;
+            border: 2px solid black;
+        }
+        .cart{
+            width: 200px;
+            margin: 0 auto;
+            border: 2px solid black;
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 5px;
+            color: red;
+        }
+        .success{
+            color: green;
+        }
+    </style>
+    <title>Shopping Cart</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="product">
+            <h4>Products</h4>
+            <div class="cart_list">
+                <ol id="cart_list">
+                    <li>Rice<a href="#" class="success">Add</a></li> 
+                    <li>Milk<a href="#" class="success">Add</a></li>
+                    <li>Meat<a href="#" class="success">Add</a></li>
+                    <li>Fruit<a href="#" class="success">Add</a></li>
+                </ol>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="cart">
+            <h4>Carts</h4>
+            <div class="cart_result">
+                <ol id="cart_result">
+
+                </ol>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="shoppingcart.js"></script>
+</body>
+</html>
